@@ -99,89 +99,34 @@
 
 <!-- 表单：使用各种控件（文本框、单选、复选、下拉、文本域、提交、重置） -->
 <form action="#" method="post">
-    <table border="1" cellspacing="0" cellpadding="5" width="90%">
-        <tr>
-            <td width="20%">姓名：</td>
-            <td>
-                <input type="text" name="username" size="20">
-            </td>
-        </tr>
-        <tr>
-            <td>性别：</td>
-            <td>
-                <input type="radio" name="gender" value="男" checked> 男
-                <input type="radio" name="gender" value="女"> 女
-            </td>
-        </tr>
-        <tr>
-            <td>出生日期：</td>
-            <td>
-                <input type="text" name="year" size="4"> 年
-                <input type="text" name="month" size="2"> 月
-                <input type="text" name="day" size="2"> 日
-            </td>
-        </tr>
-        <tr>
-            <td>联系方式：</td>
-            <td>
-                手机：<input type="text" name="phone" size="15">
-                <br>
-                邮箱：<input type="text" name="email" size="30">
-            </td>
-        </tr>
-        <tr>
-            <td>是否有吉他基础：</td>
-            <td>
-                <input type="radio" name="base" value="无基础" checked> 无基础
-                <input type="radio" name="base" value="会几首简单曲目"> 会几首简单曲目
-                <input type="radio" name="base" value="可独立弹唱"> 可独立弹唱
-            </td>
-        </tr>
-        <tr>
-            <td>兴趣方向（可多选）：</td>
-            <td>
-                <input type="checkbox" name="hobby" value="弹唱"> 弹唱
-                <input type="checkbox" name="hobby" value="指弹"> 指弹
-                <input type="checkbox" name="hobby" value="乐队"> 组建乐队
-                <input type="checkbox" name="hobby" value="创作"> 原创歌曲创作
-                <input type="checkbox" name="hobby" value="录音"> 录音与后期
-            </td>
-        </tr>
-        <tr>
-            <td>年级：</td>
-            <td>
-                <select name="grade">
-                    <option value="大一" selected>大一</option>
-                    <option value="大二">大二</option>
-                    <option value="大三">大三</option>
-                    <option value="大四">大四</option>
-                    <option value="研究生">研究生</option>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>自我介绍：</td>
-            <td>
-                <textarea name="intro" rows="6" cols="50">
-请简单介绍自己、以及加入吉他社的理由……
-                </textarea>
-            </td>
-        </tr>
-        <tr>
-            <td>是否服从活动安排：</td>
-            <td>
-                <input type="radio" name="obey" value="是" checked> 是
-                <input type="radio" name="obey" value="否"> 否
-            </td>
-        </tr>
-        <tr>
-            <td>提交操作：</td>
-            <td>
-                <input type="submit" value="提交报名">
-                <input type="reset" value="重置表单">
-            </td>
-        </tr>
-    </table>
+   <table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th colspan="4">打击乐社 2026 年春季学期活动安排表</th>
+    </tr>
+    <tr style="text-align: center;">
+        <th>活动时间</th>
+        <th>活动名称</th>
+        <th>活动地点</th>
+        <th>活动内容</th>
+    </tr>
+    <tr>
+        <td>第 2 周周五</td>
+        <td>新成员见面会</td>
+        <td rowspan="2">学生活动中心 201 教室</td>
+        <td>认识社员，体验拍手接节奏</td>
+    </tr>
+    <tr>
+        <td>第 3 周周五</td>
+        <td>打击乐器基础教学公开课</td>
+        <td>学习握鼓棒和四拍节奏</td>
+    </tr>
+    <tr>
+        <td>第 6 周周五</td>
+        <td>打击乐小组合奏</td>
+        <td>音乐排练厅</td>
+        <td>用小军鼓和手鼓合作完成一首乐曲</td>
+    </tr>
+</table>
 </form>
 
 <p>
